@@ -11,7 +11,7 @@ Python is used to explore bike share usage data for the cities of Chicago, New Y
     - counts of each user type (all cities) and counts of gender and birth metrics (for New York City and Chicago only)
 
 ### Files used
-Include the files used
+In addition to the main code file, bikeshare.py, this project uses three data files: chicago.csv, new_york_city.csv and washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
