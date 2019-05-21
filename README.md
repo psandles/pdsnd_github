@@ -1,5 +1,5 @@
 ### Date created
-Include the date you created this project and README file.
+This project and its associated README file were first created on this forked repository on 21 May 2019.
 
 ### Project Title
 Replace the Project Title
