@@ -1,8 +1,7 @@
+### Python Bike Share Analysis
+
 ### Date created
 This project and its associated README file were first created on this forked repository on 21 May 2019.
-
-### Project Title
-Replace the Project Title
 
 ### Description
 Describe what your project is about and what it does
