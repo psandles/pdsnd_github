@@ -19,3 +19,4 @@ The following were used to create and edit this repository and any changes made 
 - https://knowledge.udacity.com/questions/17415 - to work out where a .gitignore file should be in the repository. Up-voted answer to highlight usefulness to other users.
 - https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/ - to show hidden files to enable .gitignore file to be created and modified. This might sound very basic but this was certainly necessary. Thank you.
 - https://udacity.github.io/git-styleguide/ - to ensure my commit messages met approved style guidelines.
+- https://en.support.wordpress.com/markdown-quick-reference/ - used to re-format elements of README.md as bullet list.
