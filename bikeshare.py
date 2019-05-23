@@ -22,7 +22,7 @@ def get_filters():
     # Gets user input for city (chicago, new york city, washington).
     while True:
         city = str(input("Please enter a city from Chicago, New York City and Washington: ")).lower()
-        if city == "chicago" or city == "new york city" or city == "washington":
+        if city == "chicago" or "new york city" or "washington":
             break
         else:
             print("  I'm sorry. You didn't enter one of the cities we have data for.\n")
