@@ -32,11 +32,11 @@ def get_filters():
     # Gets user input for month (january, ... , june or all)
     while True:
         month = str(input("Please enter a month or, alternatively, enter all to view statistics for all months: ")).lower()
-        if month == "january" or month == "february" or month == "march" or month == "april" or month == "may" or month =="june" or month == "all":
+        if month == "january" or "february" or "march" or "april" or "may" or "june" or "all":
             break
         else:
             print("  I'm sorry. You didn't give a valid input.\n")
-    if month == "january" or month == "february" or month == "march" or month == "april" or month == "may" or month == "june":
+    if month == "january" or "february" or "march" or "april" or "may" or "june":
         print("  Thanks. We'll just focus on statistics for {}.\n\n".format(month.title()))
     else:
         print("  Thanks. We'll look at statistics for all months.\n\n")
