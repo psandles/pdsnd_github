@@ -22,7 +22,7 @@ def get_filters():
     # Gets user input for city (chicago, new york city, washington).
     while True:
         city = str(input("Please enter a city from Chicago, New York City and Washington: ")).lower()
-        if city == "chicago" or city == "new york city" or city == "washington":
+        if city == "chicago" or "new york city" or "washington":
             break
         else:
             print("  I'm sorry. You didn't enter one of the cities we have data for.\n")
@@ -32,11 +32,11 @@ def get_filters():
     # Gets user input for month (january, ... , june or all)
     while True:
         month = str(input("Please enter a month or, alternatively, enter all to view statistics for all months: ")).lower()
-        if month == "january" or month == "february" or month == "march" or month == "april" or month == "may" or month =="june" or month == "all":
+        if month == "january" or "february" or "march" or "april" or "may" or "june" or "all":
             break
         else:
             print("  I'm sorry. You didn't give a valid input.\n")
-    if month == "january" or month == "february" or month == "march" or month == "april" or month == "may" or month == "june":
+    if month == "january" or "february" or "march" or "april" or "may" or "june":
         print("  Thanks. We'll just focus on statistics for {}.\n\n".format(month.title()))
     else:
         print("  Thanks. We'll look at statistics for all months.\n\n")
@@ -45,11 +45,11 @@ def get_filters():
     # Gets user input for day of week (monday, ... sunday or all)
     while True:
         day = str(input("Please enter a day or, alternatively, enter all to view statistics for all days: ")).lower()
-        if day == "monday" or day == "tuesday" or day == "wednesday" or day == "thursday" or day == "friday" or day == "saturday" or day == "sunday" or day == "all":
+        if day == "monday" or "tuesday" or "wednesday" or "thursday" or "friday" or "saturday" or "sunday" or "all":
             break
         else:
             print("  I'm sorry. You didn't give a valid input.\n")
-    if day == "monday" or day == "tuesday" or day == "wednesday" or day == "thursday" or day == "friday" or day == "saturday" or day == "sunday":
+    if day == "monday" or "tuesday" or "wednesday" or "thursday" or "friday" or "saturday" or "sunday":
         print("  You've chosen to view statistics just for a {}.\n\n".format(day.title()))
     else:
         print("  You've chosen to view statistics for every day of the week.\n\n")            
