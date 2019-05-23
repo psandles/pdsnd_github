@@ -45,11 +45,11 @@ def get_filters():
     # Gets user input for day of week (monday, ... sunday or all)
     while True:
         day = str(input("Please enter a day or, alternatively, enter all to view statistics for all days: ")).lower()
-        if day == "monday" or day == "tuesday" or day == "wednesday" or day == "thursday" or day == "friday" or day == "saturday" or day == "sunday" or day == "all":
+        if day == "monday" or "tuesday" or "wednesday" or "thursday" or "friday" or "saturday" or "sunday" or "all":
             break
         else:
             print("  I'm sorry. You didn't give a valid input.\n")
-    if day == "monday" or day == "tuesday" or day == "wednesday" or day == "thursday" or day == "friday" or day == "saturday" or day == "sunday":
+    if day == "monday" or "tuesday" or "wednesday" or "thursday" or "friday" or "saturday" or "sunday":
         print("  You've chosen to view statistics just for a {}.\n\n".format(day.title()))
     else:
         print("  You've chosen to view statistics for every day of the week.\n\n")            
